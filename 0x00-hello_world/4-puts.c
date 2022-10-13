@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 /**
  * main - prints a phrase
  * Return: 0 if exited properly, else non zero
