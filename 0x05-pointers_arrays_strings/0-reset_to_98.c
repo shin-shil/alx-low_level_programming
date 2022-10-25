@@ -2,6 +2,7 @@
 
 /**
  * reset_to_98 = updating the value of n
+ * @n: input
  * Return: n
  */
 
