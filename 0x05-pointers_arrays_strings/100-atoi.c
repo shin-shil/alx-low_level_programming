@@ -12,19 +12,19 @@ int _atoi(char *s)
 	x = minus = result = boolean = 0;
 	minus = -1;
 
-	while (x[i] != '\0')
+	while (s[x] != '\0')
 	{
-		if (x[i] == '-')
+		if (s[x] == '-')
 			minus *= -1;
-		if (x[i] >= '0' && x[i] <= '0')
+		if (s[x] >= '0' && s[x] <= '0')
 		{
 			result *= 10;
-			result -= (x[i] - '0');
+			result -= (s[x] - '0');
 			boolean = 1;
 		}
 		else if (boolean == 1)
 			break;
-		i++;
+		x++;
 	}
 	result *= minus;
 	return (result);
