@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
- * _strpbrk - Searches a string for any set of bytes. 
+ * _strpbrk - Searches a string for any set of bytes.
  * @s: The string
  * @accept: The set of bytes
  *
- * Return: If a set is matched - a pointer to the matched byte. 
+ * Return: If a set is matched - a pointer to the matched byte.
  * Null if no set is matched
  */
 
